@@ -30,7 +30,7 @@ const ProductCard = ({ item }) => {
 
   return (
     <>
-      <div className="group">
+      <div className="group productCard">
         <div className="px-[30px] pt-[41px] pb-2 border group relative group-hover:rounded border-b-transparent group-hover:border-b-gray-200 rounded-t ">
           <div className=" ">
             <div className="flex mb-8">

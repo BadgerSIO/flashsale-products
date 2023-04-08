@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "badge": "new",
+    "productName": "Sanung 85Q70A 85 Inch QLED 4K UHD Smart LED Television",
+    "category": "Laura Curry",
+    "price": 83,
+    "salePrice": 60,
+    "productImage": [
+      "https://i.ibb.co/s2PnRmr/bathgel.png",
+      "https://i.ibb.co/TL2TgbD/tea-tree-oil.png",
+      "https://i.ibb.co/wScmXrv/peace.png"
+    ]
+  },
+  {
+    "id": 2,
+    "badge": "sale",
+    "productName": "Sanung 85Q70A 85 Inch QLED 4K UHD Smart LED Television",
+    "category": "Lance Bradshaw",
+    "price": 96,
+    "salePrice": 52,
+    "productImage": [
+      "https://i.ibb.co/TL2TgbD/tea-tree-oil.png",
+      "https://i.ibb.co/s2PnRmr/bathgel.png",
+      "https://i.ibb.co/wScmXrv/peace.png"
+    ]
+  },
+  {
+    "id": 3,
+    "badge": "new",
+    "productName": "Sanung 85Q70A 85 Inch QLED 4K UHD Smart LED Television",
+    "category": "Macey Estrada",
+    "price": 74,
+    "salePrice": 62,
+    "productImage": [
+      "https://i.ibb.co/wScmXrv/peace.png",
+      "https://i.ibb.co/s2PnRmr/bathgel.png",
+      "https://i.ibb.co/TL2TgbD/tea-tree-oil.png"
+    ]
+  },
+  {
+    "id": 4,
+    "badge": "sale",
+    "productName": "Sanung 85Q70A 85 Inch QLED 4K UHD Smart LED Television",
+    "category": "Meredith Frye",
+    "price": 81,
+    "salePrice": 55,
+    "productImage": [
+      "https://i.ibb.co/s2PnRmr/bathgel.png",
+      "https://i.ibb.co/TL2TgbD/tea-tree-oil.png",
+      "https://i.ibb.co/wScmXrv/peace.png"
+    ]
+  },
+  {
+    "id": 5,
+    "badge": "new",
+    "productName": "Sanung 85Q70A 85 Inch QLED 4K UHD Smart LED Television",
+    "category": "Darryl Reilly",
+    "price": 83,
+    "salePrice": 60,
+    "productImage": [
+      "https://i.ibb.co/TL2TgbD/tea-tree-oil.png",
+      "https://i.ibb.co/s2PnRmr/bathgel.png",
+      "https://i.ibb.co/wScmXrv/peace.png"
+    ]
+  },
+  {
+    "id": 6,
+    "badge": "new",
+    "productName": "Sanung 85Q70A 85 Inch QLED 4K UHD Smart LED Television",
+    "category": "Laura Curry",
+    "price": 83,
+    "salePrice": 60,
+    "productImage": [
+      "https://i.ibb.co/wScmXrv/peace.png",
+      "https://i.ibb.co/s2PnRmr/bathgel.png",
+      "https://i.ibb.co/TL2TgbD/tea-tree-oil.png"
+    ]
+  },
+  {
+    "id": 7,
+    "badge": "sale",
+    "productName": "Sanung 85Q70A 85 Inch QLED 4K UHD Smart LED Television",
+    "category": "Lance Bradshaw",
+    "price": 96,
+    "salePrice": 52,
+    "productImage": [
+      "https://i.ibb.co/s2PnRmr/bathgel.png",
+      "https://i.ibb.co/TL2TgbD/tea-tree-oil.png",
+      "https://i.ibb.co/wScmXrv/peace.png"
+    ]
+  },
+  {
+    "id": 8,
+    "badge": "new",
+    "productName": "Sanung 85Q70A 85 Inch QLED 4K UHD Smart LED Television",
+    "category": "Macey Estrada",
+    "price": 74,
+    "salePrice": 62,
+    "productImage": [
+      "https://i.ibb.co/TL2TgbD/tea-tree-oil.png",
+      "https://i.ibb.co/s2PnRmr/bathgel.png",
+      "https://i.ibb.co/wScmXrv/peace.png"
+    ]
+  },
+  {
+    "id": 9,
+    "badge": "sale",
+    "productName": "Sanung 85Q70A 85 Inch QLED 4K UHD Smart LED Television",
+    "category": "Meredith Frye",
+    "price": 81,
+    "salePrice": 55,
+    "productImage": [
+      "https://i.ibb.co/wScmXrv/peace.png",
+      "https://i.ibb.co/s2PnRmr/bathgel.png",
+      "https://i.ibb.co/TL2TgbD/tea-tree-oil.png"
+    ]
+  },
+  {
+    "id": 10,
+    "badge": "new",
+    "productName": "Sanung 85Q70A 85 Inch QLED 4K UHD Smart LED Television",
+    "category": "Darryl Reilly",
+    "price": 83,
+    "salePrice": 60,
+    "productImage": [
+      "https://i.ibb.co/s2PnRmr/bathgel.png",
+      "https://i.ibb.co/TL2TgbD/tea-tree-oil.png",
+      "https://i.ibb.co/wScmXrv/peace.png"
+    ]
+  }
+]

@@ -4,6 +4,7 @@ import ProductSlider from "./ProductSlider";
 const TrendingProducts = () => {
   const [womenproducts, setWomenproducts] = useState([]);
   const [foodproducts, setFoodproducts] = useState([]);
+  const [cosmetics, setCosmetics] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -19,6 +20,12 @@ const TrendingProducts = () => {
         setFoodproducts(data);
         setLoading(false);
       });
+    fetch("cosmetics.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setCosmetics(data);
+        setLoading(false);
+      });
   }, []);
   if (loading) {
     return <h1>Loading...</h1>;
@@ -31,7 +38,7 @@ const TrendingProducts = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-5 lg:gap-8 2xl:gap-[60px]">
         <ProductSlider products={womenproducts} pcategory={`fashion`} />
         <ProductSlider products={foodproducts} pcategory={`food`} />
-        <ProductSlider products={womenproducts} pcategory={`cosmetics`} />
+        <ProductSlider products={cosmetics} pcategory={`cosmetics`} />
       </div>
     </section>
   );

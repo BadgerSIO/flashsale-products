@@ -7,7 +7,7 @@ import "swiper/css/grid";
 import { Grid } from "swiper";
 import ProductCardV2 from "./ProductCardV2";
 
-const ForWomen = ({ products }) => {
+const ProductSlider = ({ products, pcategory }) => {
   const fashionsliderRef = useRef();
   const handlePrevious = () => {
     fashionsliderRef.current.swiper.slidePrev();
@@ -19,9 +19,22 @@ const ForWomen = ({ products }) => {
   return (
     <div>
       <div className="sm:flex sm:justify-between sm:items-center sm:pb-6">
-        <h3 className="font-medium md:text-2xl leading-[24px]  capitalize">
-          <span className="font-black">Fashion</span> for women
-        </h3>
+        {pcategory === "fashion" && (
+          <h3 className="font-medium md:text-2xl leading-[24px]  capitalize">
+            <span className="font-black">Fashion</span> for women
+          </h3>
+        )}
+        {pcategory === "food" && (
+          <h3 className="font-medium md:text-2xl leading-[24px]  capitalize">
+            <span className="font-black">Food</span> for health
+          </h3>
+        )}
+        {pcategory === "cosmetics" && (
+          <h3 className="font-medium md:text-2xl leading-[24px]  capitalize">
+            <span className="font-black">cosmetics</span> for winter
+          </h3>
+        )}
+
         <div>
           <button onClick={handlePrevious}>
             <HiOutlineArrowLeft className="p-2 rounded-full hover:bg-black text-3xl sm:text-4xl hover:text-white" />
@@ -59,4 +72,4 @@ const ForWomen = ({ products }) => {
   );
 };
 
-export default ForWomen;
+export default ProductSlider;

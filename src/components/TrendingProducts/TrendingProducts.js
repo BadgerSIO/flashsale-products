@@ -1,15 +1,22 @@
 import React, { useEffect, useState } from "react";
-import ForWomen from "./ForWomen";
+import ProductSlider from "./ProductSlider";
 
 const TrendingProducts = () => {
-  const [products, setProducts] = useState([]);
+  const [womenproducts, setWomenproducts] = useState([]);
+  const [foodproducts, setFoodproducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("flashproducts.json")
+    fetch("fashionforwomen.json")
       .then((res) => res.json())
       .then((data) => {
-        setProducts(data);
+        setWomenproducts(data);
+        setLoading(false);
+      });
+    fetch("foods.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setFoodproducts(data);
         setLoading(false);
       });
   }, []);
@@ -22,9 +29,9 @@ const TrendingProducts = () => {
         <span className="font-black">Trending</span> products
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3  gap-5 lg:gap-8 2xl:gap-[60px]">
-        <ForWomen products={products} />
-        <ForWomen products={products} />
-        <ForWomen products={products} />
+        <ProductSlider products={womenproducts} pcategory={`fashion`} />
+        <ProductSlider products={foodproducts} pcategory={`food`} />
+        <ProductSlider products={womenproducts} pcategory={`cosmetics`} />
       </div>
     </section>
   );
